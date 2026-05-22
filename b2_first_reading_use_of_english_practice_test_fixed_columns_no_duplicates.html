@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///Users/benjaminandfamily/Downloads/fece1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B2 First — Reading &amp; Use of English Practice Test</title>
+<link href="./B2 First — Reading &amp; Use of English Practice Test_files/css2" rel="stylesheet">
+<style>
+:root {
+  --bg: #f3f1f8;
+  --surface: #fdfcff;
+  --surface2: #edeaf5;
+  --ink: #1a1828;
+  --ink-soft: #424060;
+  --ink-muted: #807e9a;
+  --border: #d4d0e8;
+  --border-light: #e8e6f4;
+  --accent: #4a3aaa;
+  --accent-dark: #32288a;
+  --accent-light: #eeeafc;
+  --teal: #1a5a6a;
+  --teal-light: #e0eef4;
+  --red: #7a1a2a;
+  --red-light: #fce8ea;
+  --green: #1a4a2a;
+  --green-light: #e4f4e8;
+  --amber: #6a4a0a;
+  --amber-light: #faf0d8;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Outfit', sans-serif; background: var(--bg); color: var(--ink); min-height: 100vh; font-size: 15px; line-height: 1.65; }
+
+/* ── HEADER ── */
+.site-header { background: #1a1828; padding: 1.75rem 2rem 1.5rem; border-bottom: 3px solid var(--accent); }
+.site-header-inner { max-width: 1160px; margin: 0 auto; display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+.header-title-group h1 { font-family: 'Source Serif 4', serif; font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 600; color: #fdfcff; line-height: 1.2; margin-bottom: 3px; }
+.header-title-group p { font-size: 11px; color: #908eaa; letter-spacing: 0.14em; text-transform: uppercase; }
+.hbox { background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.14); border-radius: 10px; padding: 0.65rem 1.1rem; text-align: center; }
+.hlabel { font-size: 10px; color: #908eaa; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 2px; }
+.hval { font-family: 'DM Mono', monospace; font-size: 1.3rem; font-weight: 500; color: #fdfcff; }
+.hval.lg { font-size: 1.55rem; }
+.hval.warning { color: #f59e0b; }
+.hval.danger { color: #ef4444; }
+
+/* ── PART TABS ── */
+.part-tabs { background: #1a1828; border-bottom: 1px solid #2a2840; padding: 0 2rem; }
+.part-tabs-inner { max-width: 1160px; margin: 0 auto; display: flex; overflow-x: auto; scrollbar-width: none; }
+.part-tabs-inner::-webkit-scrollbar { display: none; }
+.ptab { padding: 0.8rem 1.1rem; border: none; background: transparent; cursor: pointer; font-family: 'Outfit', sans-serif; font-size: 12px; font-weight: 500; color: #605e7a; border-bottom: 3px solid transparent; white-space: nowrap; transition: all 0.2s; }
+.ptab:hover { color: #b0aed0; }
+.ptab.active { color: #fdfcff; border-bottom-color: var(--accent); }
+
+/* ── LAYOUT ── */
+.main-wrap { max-width: 1160px; margin: 0 auto; padding: 1.75rem 1.5rem 4rem; }
+
+/* ── SECTION ── */
+.q-section { display: none; animation: fadeIn 0.2s ease; }
+.q-section.active { display: block; }
+@keyframes fadeIn { from { opacity:0; transform:translateY(4px); } to { opacity:1; transform:translateY(0); } }
+
+/* ── TEXT PASSAGE ── */
+.passage-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.4rem 1.6rem; margin-bottom: 1.5rem; font-family: 'Source Serif 4', serif; font-size: 14px; line-height: 1.95; color: var(--ink-soft); }
+.passage-card h3 { font-size: 1.05rem; font-weight: 600; color: var(--ink); margin-bottom: 1rem; font-family: 'Source Serif 4', serif; }
+.passage-card p { margin-bottom: 0.9rem; }
+.passage-card p:last-child { margin-bottom: 0; }
+.gap-num { font-family: 'DM Mono', monospace; font-size: 12px; font-weight: 500; color: var(--accent); background: var(--accent-light); padding: 1px 6px; border-radius: 4px; }
+
+/* ── Q BLOCK ── */
+.q-block { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 1.25rem; overflow: hidden; }
+.q-block-header { background: var(--surface2); padding: 0.85rem 1.25rem; border-bottom: 1px solid var(--border); }
+.q-block-title { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
+.q-block-subtitle { font-size: 12.5px; color: var(--ink-muted); margin-top: 3px; line-height: 1.5; }
+.q-block-body { padding: 1.1rem 1.25rem; }
+
+/* ── QUESTION ITEM ── */
+.question-item { margin-bottom: 1.1rem; padding-bottom: 1.1rem; border-bottom: 1px solid var(--border-light); }
+.question-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.q-number { font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-muted); margin-bottom: 5px; }
+.q-text { font-size: 13.5px; color: var(--ink); line-height: 1.6; margin-bottom: 0.75rem; }
+
+/* ── MCQ ── */
+.mcq-options { display: flex; flex-direction: column; gap: 6px; }
+.mcq-opt { display: flex; align-items: flex-start; gap: 10px; padding: 8px 12px; border: 1.5px solid var(--border); border-radius: 8px; cursor: pointer; font-size: 13px; color: var(--ink); line-height: 1.5; transition: all 0.15s; background: transparent; text-align: left; font-family: 'Outfit', sans-serif; width: 100%; }
+.mcq-opt:hover:not(:disabled) { background: var(--surface2); border-color: var(--accent); }
+.mcq-opt:disabled { cursor: default; }
+.opt-letter { font-size: 10px; font-weight: 600; min-width: 20px; height: 20px; border-radius: 50%; background: var(--surface2); color: var(--ink-muted); display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+.mcq-opt.correct { background: var(--green-light); border-color: var(--green); color: #1a4a1a; }
+.mcq-opt.wrong { background: var(--red-light); border-color: var(--red); color: var(--red); }
+.mcq-opt.correct .opt-letter { background: var(--green); color: white; }
+.mcq-opt.wrong .opt-letter { background: var(--red); color: white; }
+.q-feedback { margin-top: 6px; padding: 7px 10px; border-radius: 6px; font-size: 12px; line-height: 1.5; display: none; }
+.q-feedback.show { display: block; }
+.q-feedback.correct { background: var(--green-light); color: var(--green); }
+.q-feedback.wrong { background: var(--red-light); color: var(--red); }
+
+/* ── OPEN CLOZE INPUT ── */
+.inline-gap { display: inline-flex; align-items: center; vertical-align: middle; margin: 0 2px; }
+.inline-input { border: none; border-bottom: 2px solid var(--border); background: transparent; font-family: 'Outfit', sans-serif; font-size: 14px; color: var(--ink); outline: none; width: 110px; padding: 1px 4px; transition: border-color 0.2s; }
+.inline-input:focus { border-bottom-color: var(--accent); }
+.inline-input.correct { border-bottom-color: var(--green); color: var(--green); }
+.inline-input.wrong { border-bottom-color: var(--red); color: var(--red); }
+.answer-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+.reveal-btn { padding: 6px 16px; border: 1.5px solid var(--border); border-radius: 7px; background: transparent; font-family: 'Outfit', sans-serif; font-size: 12px; font-weight: 500; color: var(--ink-muted); cursor: pointer; transition: all 0.15s; }
+.reveal-btn:hover { background: var(--surface2); color: var(--ink); }
+.correct-badge { font-size: 11px; font-weight: 600; color: var(--green); background: var(--green-light); padding: 3px 10px; border-radius: 12px; display: none; }
+.wrong-badge { font-size: 11px; color: var(--red); background: var(--red-light); padding: 3px 10px; border-radius: 12px; display: none; }
+.answer-reveal { font-size: 12px; font-weight: 600; color: var(--teal); background: var(--teal-light); padding: 3px 10px; border-radius: 12px; display: none; }
+
+/* ── WORD FORMATION ── */
+.wf-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 0.75rem; padding-bottom: 0.75rem; border-bottom: 1px solid var(--border-light); }
+.wf-row:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.wf-num { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--ink-muted); min-width: 22px; }
+.wf-sentence { font-size: 13.5px; color: var(--ink); line-height: 1.65; flex: 1; }
+.wf-root { font-size: 11px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--accent); background: var(--accent-light); padding: 2px 8px; border-radius: 5px; white-space: nowrap; }
+
+/* ── KEY WORD TRANSFORMATION ── */
+.kw-item { margin-bottom: 1.1rem; padding-bottom: 1.1rem; border-bottom: 1px solid var(--border-light); }
+.kw-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.kw-q-num { font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-muted); margin-bottom: 5px; }
+.kw-sentence1 { font-size: 13.5px; color: var(--ink); line-height: 1.65; margin-bottom: 6px; }
+.kw-keyword { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; background: var(--amber-light); color: var(--amber); padding: 2px 8px; border-radius: 5px; display: inline-block; margin-bottom: 8px; }
+.kw-sentence2 { font-size: 13.5px; color: var(--ink); line-height: 1.9; }
+.kw-input { border: none; border-bottom: 2px solid var(--border); background: transparent; font-family: 'Outfit', sans-serif; font-size: 13.5px; color: var(--ink); outline: none; min-width: 180px; max-width: 280px; width: 100%; padding: 1px 4px; transition: border-color 0.2s; }
+.kw-input:focus { border-bottom-color: var(--accent); }
+.kw-input.correct { border-bottom-color: var(--green); color: var(--green); }
+.kw-input.wrong { border-bottom-color: var(--red); color: var(--red); }
+
+/* ── GAPPED TEXT ── */
+.gap-placeholder { display: inline-block; background: var(--accent-light); border: 1.5px dashed var(--accent); border-radius: 6px; padding: 2px 12px; font-size: 13px; color: var(--ink-muted); cursor: default; margin: 0 2px; vertical-align: middle; font-family: 'DM Mono', monospace; }
+.gap-placeholder.filled { background: var(--green-light); border-color: var(--green); color: var(--green); font-family: 'Source Serif 4', serif; font-size: 13px; font-style: italic; }
+.gap-placeholder.wrong-fill { background: var(--red-light); border-color: var(--red); color: var(--red); }
+.sentence-bank { background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 1rem; }
+.sentence-bank-title { font-size: 10px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-muted); margin-bottom: 0.75rem; }
+.match-dropdown { appearance: none; -webkit-appearance: none; border: 1.5px solid var(--border); border-radius: 7px; padding: 5px 28px 5px 10px; font-family: 'Outfit', sans-serif; font-size: 13px; color: var(--ink); background: var(--bg); background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23807e9a' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 8px center; cursor: pointer; outline: none; transition: border-color 0.2s; min-width: 70px; }
+.match-dropdown:focus { border-color: var(--accent); }
+.match-dropdown.correct { border-color: var(--green); background-color: var(--green-light); color: var(--green); }
+.match-dropdown.wrong { border-color: var(--red); background-color: var(--red-light); color: var(--red); }
+
+/* ── MULTIPLE MATCHING ── */
+.mm-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+@media (max-width: 640px) { .mm-grid { grid-template-columns: 1fr; } }
+.mm-item { background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 0.75rem 1rem; }
+.mm-q { font-size: 13px; color: var(--ink); line-height: 1.5; margin-bottom: 6px; }
+.mm-q strong { font-weight: 500; color: var(--accent); }
+.person-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.25rem; }
+@media (max-width: 640px) { .person-cards { grid-template-columns: 1fr; } }
+.person-card { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.person-card-header { background: var(--accent); padding: 0.6rem 1rem; }
+.person-card-name { font-size: 13px; font-weight: 600; color: white; }
+.person-card-body { padding: 0.9rem 1rem; font-size: 12.5px; color: var(--ink-soft); line-height: 1.7; font-family: 'Source Serif 4', serif; }
+
+/* ── SCORE BAR ── */
+.section-score { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 0.9rem 1.25rem; margin-bottom: 1.25rem; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.section-score-label { font-size: 12px; color: var(--ink-muted); font-weight: 500; }
+.section-score-bar { flex: 1; min-width: 80px; height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; }
+.section-score-fill { height: 100%; background: var(--accent); border-radius: 3px; transition: width 0.5s; width: 0%; }
+.section-score-num { font-family: 'DM Mono', monospace; font-size: 13px; color: var(--accent); font-weight: 500; }
+
+.check-all-btn { width: 100%; padding: 9px; border: 1.5px solid var(--accent); border-radius: 8px; background: var(--accent); color: white; font-family: 'Outfit', sans-serif; font-size: 13px; font-weight: 600; cursor: pointer; margin-top: 0.75rem; transition: all 0.15s; }
+.check-all-btn:hover { background: var(--accent-dark); }
+
+footer { text-align: center; padding: 2rem; font-size: 11px; color: var(--ink-muted); letter-spacing: 0.05em; border-top: 1px solid var(--border); }
+
+/* ESLCONNECT banner only */
+:root{
+  --eslc-navy:#06142A;
+  --eslc-yellow:#FFF9C4;
+  --eslc-teal:#3c6e71;
+}
+.site-header{
+  background:var(--eslc-navy) !important;
+  border-bottom:0 !important;
+  padding:34px 22px !important;
+}
+.part-tabs{
+  background:var(--eslc-navy) !important;
+}
+.ptab:hover{
+  background:#FFD84D !important;
+  color:var(--eslc-navy) !important;
+}
+.ptab.active{
+  color:#fff !important;
+  border-bottom-color:var(--eslc-yellow) !important;
+}
+.site-header-inner{
+  max-width:1120px;
+  align-items:center;
+}
+.eslc-header-left{
+  display:flex;
+  align-items:center;
+  gap:18px;
+}
+.eslc-logo-link{
+  width:96px;
+  height:96px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  border-radius:18px;
+  background:#fff;
+  border:3px solid var(--eslc-yellow);
+  box-shadow:0 10px 24px rgba(0,0,0,.22);
+  text-decoration:none;
+  flex:0 0 auto;
+}
+.eslc-logo-link img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+.eslc-logo-fallback{
+  color:var(--eslc-navy);
+  font-weight:800;
+  font-size:13px;
+  text-align:center;
+  line-height:1.05;
+  padding:8px;
+  font-family:Arial,Helvetica,sans-serif;
+}
+.header-title-group h1{
+  color:#fff !important;
+}
+.header-title-group p{
+  color:rgba(255,255,255,.78) !important;
+}
+.hbox{
+  background:rgba(255,255,255,.10) !important;
+  border:1px solid rgba(255,255,255,.25) !important;
+}
+.hlabel{
+  color:rgba(255,255,255,.72) !important;
+}
+@media(max-width:720px){
+  .eslc-header-left{
+    align-items:flex-start;
+    flex-direction:column;
+  }
+  .eslc-logo-link{
+    width:88px;
+    height:88px;
+  }
+}
+
+
+/* Exercise-page layout refinements */
+.two-column-task{
+  display:grid;
+  grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);
+  gap:18px;
+  align-items:start;
+}
+.two-column-task .passage-card{
+  margin-bottom:0;
+}
+.questions-column{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:1rem;
+  max-height:calc(100vh - 220px);
+  overflow:auto;
+  position:sticky;
+  top:18px;
+}
+.questions-column .question-item{
+  margin-bottom:.95rem;
+  padding-bottom:.95rem;
+}
+.questions-column .mcq-opt{
+  padding:7px 10px;
+}
+@media(max-width:900px){
+  .two-column-task{
+    grid-template-columns:1fr;
+  }
+  .questions-column{
+    position:static;
+    max-height:none;
+    overflow:visible;
+  }
+}
+
+
+.exercise-page-controls{
+  max-width:1160px;
+  margin:0 auto 1rem;
+  padding:0 1.5rem;
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+}
+.exercise-page-controls button{
+  padding:9px 14px;
+  border:1.5px solid var(--eslc-yellow, #FFF9C4);
+  border-radius:10px;
+  background:var(--eslc-navy, #06142A);
+  color:#fff;
+  font-family:inherit;
+  font-size:13px;
+  font-weight:600;
+  cursor:pointer;
+}
+.exercise-page-controls button:hover{
+  background:#FFD84D;
+  color:var(--eslc-navy, #06142A);
+}
+
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="eslc-header-left"><a class="eslc-logo-link" href="https://www.eslconnect.net/" target="_blank" rel="noopener" aria-label="Visit ESL CONNECT website">
+        <img src="data:image/jpeg;base64,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T0a2rg73Q/pLIWTEN0LcBeQszkm7SjknF3OkSF7OQLNMbZxb4otQuOvU/QcJd7yNbsZJDT4mrfMgiSXyA2eR6CNqeCS+hOnYRQ9nspvrEob4QlDZKDxy6HwTcnBHsohY08IdgFHLmfHlPJNl+TiRfHnDo1tXB3upJwF5DmHNPCkr6tQ27ByTi7nWUKOHhw9mQmjAAJPRwWjzcp+g4S73kNh5zJgg8hkIDBDZmt8PTdjwYKzAJjzLyhOzmVNeRrDPTs1b5h5BrgxBvTfAwcuLCcdFY/OEHOBz8J/3KPGavmyOWUD7ZEWArl8ew8GKigmPoUHQGFPow3LigQNsCIeGPtFACCQDvBY6JsicJmVFCQXDjINVCpuJrQVtX311tXB3up1g6fEJFEEzELMhmB9Xdg5JxdzqCxcQKFpYvRI/M/6p+g4S6g0SRy1L1Pb27du01e1BY4hAiIPMSEigs4ycssDWUewrHkQwOIMMijMRSDNHK3QTNA+2TJwOSL34sFMr0XM7+09mrf8AwIeQg2AXCx4QDXl5xDFfWHe1R4JOSOSeydDYQeQh0WSYJzDFNgnUNUOSROL4sA+ey1DiC57BuTsm2IDlMsOwhqXIDACE2VEbdEtALz0jxEGDHDGBBEimmwAYOYMIAAdhIIRZAMDYQYFekEceQXDo0/NiCwFwY92uuuuso91Ac4DqJAJAA6xHhCBcOIQ5CxDQjqjkohckzPbYA23PgP8AhhWUxoY5KpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKpzbKHTLRI2/+PL/2gAMAwEAAgADAAAAEG222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222+kk26S28222222222222222222222223CSU6ZT2m222222222222222222222224228m300222222222222222222222223G23jm22m22222222222222222222222zbY26Km0222222222222222222222223G2222cGm222222222222222222222224223m2E0222222222222222222222223NtlUNMnttm222222222222222222222wAAWPfW4ABm222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222229XG21+25G2K6m26/JJG2SK/JJE22223+q03syY2IGxn8Wy2q22wiYyG82m22221G2Ay23uws2M+S2W0W23+2xm2G222223e228G2x2KQxn5wy2i22y2222w2222228223i22yxWcM/HQW0pJHm2222G222223W229G2x2K2Bn4zi2i2262222w2222228G3Ey23mxW5s/G1G0W23S2+W2G22222387r2t3Q2K3hn4382q22AFSg2w22222222R22462422q6W2K/JJI3b+23G2222222222222222222222222222222222222222222222222222222222222222222225JJJJJJJJJJJJJJJJJJJJJJJJIG22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222223//xAArEQABAgMHBAMBAQEBAAAAAAABABExsfAQICFBYXGhUZHB0TBQ4YFwoED/2gAIAQMBAT8Q/wCLIecArWrWrWrWpjLG0G/gmtPlA38srhG9ufYhMQATWx2Wx2Wx2Wx2WZ+yjLQao1gYdyq7I9gcdis3NYHVEEFjZIE/sZAneCOaZHI5QLjnmIYQM9kgT+xkCd58MkcRjmYRCYGN6QJ/Y7cY99E6nU6tsbWP9twoYjogCzG4dZy2x9rM7iL4LZAn9jIE/iiUEJI8Zp9GGVkgT+xkCd4vB4DLqjGLK4JLaMERp7skCf2LENyQJquyrsq7KuybWM6A8hOUFg7j8RzAONFqexRTJvgik7lTBFMQ2MQ3JAmq7Kuyrsq7IiGx+sDzYDRaw7LWHZaw7LWHZNvRYQnJisBJfdaLlYaGG36jrjm0PNgNFrDstYdlrDstYdkcxz/tYt8DstcV/FjuLZEEmNwiw5WMs26I8x3/ABYxhXCrDlFWGuDEQppDGxmblM5Ye4A5YJiYz7WEFEKqke1VI9qqR7VUj2qpHu5iuBrgtcV/FjOLZEEFjYDPgdQqpHtVSPaqke1VI9qqR7TcmPxgElgs3sv1EGFhyiTF6NYnGqZ4MA7j2ERxhZlszKYw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" alt="ESL CONNECT">
+      </a><div class="header-title-group">
+      <h1>B2 First — Reading &amp; Use of English</h1>
+      <p>Practice Test · Parts 1–7 · 52 Questions</p>
+    </div></div>
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+      <div class="hbox" style="min-width:110px;">
+        <div class="hlabel">Score</div>
+        <div class="hval" id="global-score">0 / 52</div>
+      </div>
+      <div class="hbox">
+        <div class="hlabel">Time Remaining</div>
+        <div class="hval lg" id="timer">74:49</div>
+      </div>
+      <button onclick="resetTest()" style="padding: 8px 14px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 8px; background: transparent; color: rgb(144, 142, 170); font-family: Outfit, sans-serif; font-size: 11px; font-weight: 500; cursor: pointer; letter-spacing: 0.06em; text-transform: uppercase; transition: 0.15s;" onmouseover="this.style.background=&#39;rgba(255,255,255,0.08)&#39;;this.style.color=&#39;#fdfcff&#39;" onmouseout="this.style.background=&#39;transparent&#39;;this.style.color=&#39;#908eaa&#39;">↺ Reset</button>
+    </div>
+  </div>
+</header>
+
+<nav class="part-tabs">
+  <div class="part-tabs-inner">
+    <button class="ptab active" onclick="showPart(&#39;p1&#39;,this)">Part 1 · Cloze</button>
+    <button class="ptab" onclick="showPart(&#39;p2&#39;,this)">Part 2 · Open Cloze</button>
+    <button class="ptab" onclick="showPart(&#39;p3&#39;,this)">Part 3 · Word Formation</button>
+    <button class="ptab" onclick="showPart(&#39;p4&#39;,this)">Part 4 · Key Word</button>
+    <button class="ptab" onclick="showPart(&#39;p5&#39;,this)">Part 5 · Multiple Choice</button>
+    <button class="ptab" onclick="showPart(&#39;p6&#39;,this)">Part 6 · Gapped Text</button>
+    <button class="ptab" onclick="showPart(&#39;p7&#39;,this)">Part 7 · Matching</button>
+  </div>
+</nav>
+
+<div class="exercise-page-controls">
+  <button type="button" onclick="previousExercisePage()">Previous page</button>
+  <button type="button" onclick="nextExercisePage()">Next page</button>
+</div>
+
+<div class="main-wrap">
+
+  <!-- ═══ PART 1 ═══ -->
+  <div class="q-section active" id="p1">
+    <div class="section-score">
+      <span class="section-score-label">Part 1 · Multiple-choice cloze · Questions 1–8</span>
+      <div class="section-score-bar"><div class="section-score-fill" id="p1-bar"></div></div>
+      <span class="section-score-num" id="p1-score">0 / 8</span>
+    </div>
+    <div class="q-block">
+      <div class="q-block-header">
+        <div class="q-block-title">Part 1 — Multiple-choice cloze</div>
+        <div class="q-block-subtitle">Read the text and choose the answer (A, B, C or D) that best fits each gap.</div>
+      </div>
+      <div class="q-block-body">
+        <div class="two-column-task part-one-layout"><div class="passage-card">
+          <h3>Why people keep houseplants</h3>
+          <p>In recent years, houseplants have become extremely popular. For some people, this is simply because they look attractive and can make a room feel more welcoming. For others, however, the appeal goes much deeper. Keeping plants indoors can create a sense of routine and responsibility, especially for people whose daily lives may otherwise feel rather busy or disorganised.</p>
+          <p>One reason for their popularity is that they are often seen as an easy way to bring nature into modern homes. In large cities, many people have little <span class="gap-num">(1)</span> to gardens or green spaces, so even a few plants on a windowsill can make a difference. Social media has also played a part, with users sharing photos and advice that have <span class="gap-num">(2)</span> others to start collections of their own.</p>
+          <p>Of course, not everyone finds houseplants easy to care for. Some require careful attention, and beginners may feel <span class="gap-num">(3)</span> when a plant begins to lose leaves or turn brown. Yet experienced plant owners point out that mistakes are a normal part of the learning process. In fact, many say they only became confident after several failed <span class="gap-num">(4)</span>.</p>
+          <p>There is also evidence that looking after plants can be relaxing. Watering them, cleaning their leaves and checking their growth can encourage people to slow down and <span class="gap-num">(5)</span> attention to small changes. This can be particularly valuable at a time when so many people spend hours looking at screens and dealing with constant distractions.</p>
+          <p>Whether people keep one small cactus or turn an entire flat into an indoor garden, houseplants offer more than decoration. They can provide pleasure, challenge and even a sense of achievement. It is perhaps no surprise, then, that this trend has continued to <span class="gap-num">(6)</span>. What began for many as a fashionable hobby has now become a lasting <span class="gap-num">(7)</span> of everyday life. And as people continue searching for simple ways to improve their homes and wellbeing, plants are likely to <span class="gap-num">(8)</span> a popular choice.</p>
+        </div>
+        <div class="questions-column"><div id="p1-questions"></div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ PART 2 ═══ -->
+  <div class="q-section" id="p2">
+    <div class="section-score">
+      <span class="section-score-label">Part 2 · Open cloze · Questions 9–16</span>
+      <div class="section-score-bar"><div class="section-score-fill" id="p2-bar"></div></div>
+      <span class="section-score-num" id="p2-score">0 / 8</span>
+    </div>
+    <div class="q-block">
+      <div class="q-block-header">
+        <div class="q-block-title">Part 2 — Open cloze</div>
+        <div class="q-block-subtitle">Think of the word which best fits each gap. Use only ONE word in each gap. Then click Check.</div>
+      </div>
+      <div class="q-block-body" id="p2-body"></div>
+    </div>
+  </div>
+
+  <!-- ═══ PART 3 ═══ -->
+  <div class="q-section" id="p3">
+    <div class="section-score">
+      <span class="section-score-label">Part 3 · Word formation · Questions 17–24</span>
+      <div class="section-score-bar"><div class="section-score-fill" id="p3-bar"></div></div>
+      <span class="section-score-num" id="p3-score">0 / 8</span>
+    </div>
+    <div class="q-block">
+      <div class="q-block-header">
+        <div class="q-block-title">Part 3 — Word formation</div>
+        <div class="q-block-subtitle">Use the word in CAPITALS to form a word that fits each gap. Then click Check.</div>
+      </div>
+      <div class="q-block-body" id="p3-body"></div>
+    </div>
+  </div>
+
+  <!-- ═══ PART 4 ═══ -->
+  <div class="q-section" id="p4">
+    <div class="section-score">
+      <span class="section-score-label">Part 4 · Key word transformations · Questions 25–30</span>
+      <div class="section-score-bar"><div class="section-score-fill" id="p4-bar"></div></div>
+      <span class="section-score-num" id="p4-score">0 / 6</span>
+    </div>
+    <div class="q-block">
+      <div class="q-block-header">
+        <div class="q-block-title">Part 4 — Key word transformations</div>
+        <div class="q-block-subtitle">Complete the second sentence using 2–5 words including the key word. Do not change the key word.</div>
+      </div>
+      <div class="q-block-body" id="p4-body"></div>
+    </div>
+  </div>
+
+  <!-- ═══ PART 5 ═══ -->
+  <div class="q-section" id="p5">
+    <div class="section-score">
+      <span class="section-score-label">Part 5 · Multiple choice · Questions 31–36</span>
+      <div class="section-score-bar"><div class="section-score-fill" id="p5-bar"></div></div>
+      <span class="section-score-num" id="p5-score">0 / 6</span>
+    </div>
+    <div class="q-block">
+      <div class="q-block-header">
+        <div class="q-block-title">Part 5 — Multiple choice</div>
+        <div class="q-block-subtitle">Read the article then choose the best answer (A, B, C or D) for questions 31–36.</div>
+      </div>
+      <div class="q-block-body">
+        <div class="two-column-task part-five-layout"><div class="passage-card">
+          <h3>Living with less</h3>
+          <p>Over the last decade, tiny houses have attracted growing attention in many parts of the world. These homes, often no bigger than a single room or small studio flat, are designed to contain only the essentials. To some people, the idea sounds uncomfortable or unrealistic. To others, it represents freedom.</p>
+          <p>People choose tiny-house living for a range of reasons. Money is one of the most obvious. Smaller homes are generally cheaper to build, heat and maintain than conventional ones. This can allow owners to avoid large loans or reduce the amount of time they must spend earning money to cover household costs. But the decision is not always purely financial. Many are also attracted by the idea of a simpler life, with fewer possessions to organise, clean and replace.</p>
+          <p>This does not mean that tiny-house living is easy. In fact, one of its greatest challenges is psychological rather than practical. Most people are used to filling space. Give someone a cupboard, and they will soon find something to put in it. Tiny-house owners have to make constant decisions about what deserves space and what does not. As a result, living in a very small home can force people to question their habits as consumers. Did they really need five coats, three frying pans or shelves of objects they had barely noticed for years?</p>
+          <p>Even so, critics argue that tiny houses are sometimes treated too romantically. Pictures online often show beautifully designed interiors, clever storage systems and peaceful natural surroundings. What they rarely show is the inconvenience. A tiny house can feel charming on a weekend, but less so during a week of bad weather, illness or stress. Lack of privacy can also become a serious issue, especially for couples or families. A lifestyle that suits one person may be deeply frustrating for another.</p>
+          <p>There is also the question of whether tiny houses offer a real solution to broader housing problems. Supporters claim they could help provide cheaper homes and reduce environmental impact. However, experts point out that legal restrictions often limit where such homes can be built or parked. In some areas, regulations were written with traditional housing in mind, making tiny-house living difficult even for those who are fully committed to it.</p>
+          <p>Perhaps, then, the value of the tiny-house movement lies not in persuading everyone to adopt it, but in encouraging people to think more carefully about what they truly need from a home. A tiny house may not be the answer for most people. Yet the questions it raises about cost, consumption and comfort are relevant far beyond its walls.</p>
+        </div>
+        <div class="questions-column"><div id="p5-questions"></div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ PART 6 ═══ -->
+  <div class="q-section" id="p6">
+    <div class="section-score">
+      <span class="section-score-label">Part 6 · Gapped text · Questions 37–42</span>
+      <div class="section-score-bar"><div class="section-score-fill" id="p6-bar"></div></div>
+      <span class="section-score-num" id="p6-score">0 / 6</span>
+    </div>
+    <div class="q-block">
+      <div class="q-block-header">
+        <div class="q-block-title">Part 6 — Gapped text</div>
+        <div class="q-block-subtitle">Choose from sentences A–G the one which fits each gap. There is one extra sentence you do not need.</div>
+      </div>
+      <div class="q-block-body" id="p6-body"></div>
+    </div>
+  </div>
+
+  <!-- ═══ PART 7 ═══ -->
+  <div class="q-section" id="p7">
+    <div class="section-score">
+      <span class="section-score-label">Part 7 · Multiple matching · Questions 43–52</span>
+      <div class="section-score-bar"><div class="section-score-fill" id="p7-bar"></div></div>
+      <span class="section-score-num" id="p7-score">0 / 10</span>
+    </div>
+    <div class="q-block">
+      <div class="q-block-header">
+        <div class="q-block-title">Part 7 — Multiple matching</div>
+        <div class="q-block-subtitle">Read the four people's accounts. Then match each question to the correct person (A–D). People may be chosen more than once.</div>
+      </div>
+      <div class="q-block-body" id="p7-body"></div>
+    </div>
+  </div>
+
+</div>
+
+<footer>B2 First · Reading &amp; Use of English Practice Test · <span style="color:var(--accent);">✓ Progress auto-saved</span> — your answers persist across page refreshes</footer>
+
+<script>
+// ══════════ PERSISTENCE ══════════
+const STORE_KEY = 'b2first_practice1_v1';
+function loadState() { try { const r=localStorage.getItem(STORE_KEY); return r?JSON.parse(r):{}; } catch(e) { return {}; } }
+function saveState(p) { try { const c=loadState(); localStorage.setItem(STORE_KEY,JSON.stringify({...c,...p})); } catch(e) {} }
+function clearState() { try { localStorage.removeItem(STORE_KEY); } catch(e) {} }
+
+// ══════════ SCORES ══════════
+const partTotals = { p1:8, p2:8, p3:8, p4:6, p5:6, p6:6, p7:10 };
+const partScores = { p1:0, p2:0, p3:0, p4:0, p5:0, p6:0, p7:0 };
+const partAnswered = { p1:new Set(), p2:new Set(), p3:new Set(), p4:new Set(), p5:new Set(), p6:new Set(), p7:new Set() };
+
+function updateScore(part, qId, correct) {
+  if (!partAnswered[part].has(qId)) { partAnswered[part].add(qId); if(correct) partScores[part]++; }
+  const pct = Math.round(partScores[part]/partTotals[part]*100);
+  document.getElementById(part+'-bar').style.width = pct+'%';
+  document.getElementById(part+'-score').textContent = partScores[part]+' / '+partTotals[part];
+  const total = Object.values(partTotals).reduce((a,b)=>a+b,0);
+  const score = Object.values(partScores).reduce((a,b)=>a+b,0);
+  document.getElementById('global-score').textContent = score+' / '+total;
+}
+
+// ══════════ PART 1 DATA & BUILD ══════════
+const p1Data = [
+  { n:1, opts:['access','approach','admission','entry'], correct:0, exp:"'access to gardens' is the correct collocation. You 'have access to' something, not 'approach to'." },
+  { n:2, opts:['persuaded','inspired','attracted','encouraged'], correct:3, exp:"'encouraged others to start' — encouraged + to-infinitive is the correct pattern here. 'Inspired' could work but 'encouraged' fits better with the idea of motivating behaviour." },
+  { n:3, opts:['disappointed','offended','guilty','ashamed'], correct:0, exp:"'feel disappointed when a plant dies' — disappointed fits the context of unmet expectations." },
+  { n:4, opts:['attempts','experiments','efforts','trials'], correct:0, exp:"'failed attempts' is the natural collocation. You make 'attempts' at something." },
+  { n:5, opts:['give','pay','keep','hold'], correct:1, exp:"'pay attention to' is the fixed phrase. You cannot 'give' or 'keep' attention in this construction." },
+  { n:6, opts:['expand','spread','increase','grow'], correct:3, exp:"'this trend has continued to grow' — 'grow' is the most natural verb for a trend developing." },
+  { n:7, opts:['feature','piece','side','element'], correct:0, exp:"'a lasting feature of everyday life' — 'feature' collocates with 'of life' to describe something characteristic." },
+  { n:8, opts:['stay','continue','remain','keep'], correct:2, exp:"'remain a popular choice' — 'remain' + noun phrase/adjective is the correct structure here." },
+];
+
+function buildP1() {
+  const c = document.getElementById('p1-questions');
+  p1Data.forEach(q => {
+    const div = document.createElement('div'); div.className = 'question-item';
+    const opts = q.opts.map((o,i)=>`<button class="mcq-opt" onclick="answerMCQ(this,${i},${q.correct},'p1',${q.n})" data-idx="${i}"><span class="opt-letter">${String.fromCharCode(65+i)}</span>${o}</button>`).join('');
+    div.innerHTML = `<div class="q-number">Question ${q.n}</div><div class="mcq-options" data-qi="p1-${q.n}">${opts}</div><div class="q-feedback" id="fb-p1-${q.n}"></div>`;
+    c.appendChild(div);
+  });
+}
+
+// ══════════ PART 2 DATA & BUILD ══════════
+const p2Data = [
+  { n:9, before:"can offer a very different experience", after:"the first time through.", answer:"from", hint:"'different from' — preposition after 'different'." },
+  { n:10, before:"may suddenly appear full", after:"meaning.", answer:"of", hint:"'full of meaning' — fixed preposition." },
+  { n:11, before:"allows people to focus less", after:"the plot", answer:"on", hint:"'focus on' — preposition after 'focus'." },
+  { n:12, before:"it does not mean rereading is", after:"value.", answer:"without", hint:"'is without value' — means it has no value." },
+  { n:13, before:"the books seem to change along", after:"them.", answer:"with", hint:"'along with them' — alongside the reader." },
+  { n:14, before:"may produce quite", after:".", answer:"another", hint:"'quite another' (impression) — meaning a very different one." },
+  { n:15, before:"a way of seeing both the book and oneself", after:"clearly.", answer:"more", hint:"'more clearly' — comparative adverb." },
+  { n:16, before:"it can be one of the most rewarding ways", after:"enjoy literature.", answer:"to", hint:"'ways to enjoy' — infinitive of purpose." },
+];
+
+function buildP2() {
+  const c = document.getElementById('p2-body');
+  const passageDiv = document.createElement('div'); passageDiv.className = 'passage-card';
+  passageDiv.innerHTML = `<h3>The art of rereading</h3>
+    <p>Many people assume that once they have finished a book, there is no reason to read it again. After all, they already know what happens. Yet rereading can offer a very different experience <span class="inline-gap"><input class="inline-input" id="oc-9" placeholder="(9)" autocomplete="off" spellcheck="false" style="width:80px;"></span> the first time through.</p>
+    <p>When readers return to a novel, they often notice details that they had missed before. A conversation that once seemed unimportant may suddenly appear full <span class="inline-gap"><input class="inline-input" id="oc-10" placeholder="(10)" autocomplete="off" spellcheck="false" style="width:70px;"></span> meaning. Characters can also seem more complex when the reader already knows how their story will end.</p>
+    <p>Another advantage is that rereading allows people to focus less <span class="inline-gap"><input class="inline-input" id="oc-11" placeholder="(11)" autocomplete="off" spellcheck="false" style="width:70px;"></span> the plot and more on the writer's style. During a first reading, much attention is given to what will happen next. The second time, however, there is usually less suspense, so the reader is free to admire the language, structure and atmosphere.</p>
+    <p>Of course, not everyone enjoys rereading. Some would rather spend their time discovering something new. That is a reasonable view, but it does not mean rereading is <span class="inline-gap"><input class="inline-input" id="oc-12" placeholder="(12)" autocomplete="off" spellcheck="false" style="width:90px;"></span> value. In fact, many readers return to certain books at different stages of life and find that the books seem to change along <span class="inline-gap"><input class="inline-input" id="oc-13" placeholder="(13)" autocomplete="off" spellcheck="false" style="width:70px;"></span> them.</p>
+    <p>This may be because readers themselves change. A novel read at the age of fifteen may create one impression, while the same novel read at thirty may produce quite <span class="inline-gap"><input class="inline-input" id="oc-14" placeholder="(14)" autocomplete="off" spellcheck="false" style="width:90px;"></span>. Life experience affects the way people interpret events, relationships and emotions.</p>
+    <p>For this reason, rereading is not simply repetition. It is often a way of seeing both the book and oneself <span class="inline-gap"><input class="inline-input" id="oc-15" placeholder="(15)" autocomplete="off" spellcheck="false" style="width:80px;"></span> clearly. Far from being a waste of time, it can be one of the most rewarding ways <span class="inline-gap"><input class="inline-input" id="oc-16" placeholder="(16)" autocomplete="off" spellcheck="false" style="width:70px;"></span> enjoy literature.</p>`;
+  c.appendChild(passageDiv);
+  const btn = document.createElement('button'); btn.className = 'check-all-btn'; btn.textContent = 'Check All Answers (9–16)'; btn.onclick = () => checkP2();
+  c.appendChild(btn);
+  const fb = document.createElement('div'); fb.className = 'q-feedback'; fb.id = 'p2-fb'; fb.style.marginTop = '8px'; c.appendChild(fb);
+}
+
+function checkP2() {
+  let correct = 0;
+  p2Data.forEach(q => {
+    const input = document.getElementById('oc-'+q.n); if (input.disabled) return;
+    const val = input.value.trim().toLowerCase();
+    const isRight = val === q.answer.toLowerCase();
+    input.classList.remove('correct','wrong'); input.classList.add(isRight?'correct':'wrong'); input.disabled = true;
+    if (!isRight) { const sp=document.createElement('span');sp.className='answer-reveal';sp.style.display='inline-block';sp.style.marginLeft='4px';sp.style.fontSize='11px';sp.textContent=q.answer;input.parentNode.appendChild(sp); }
+    if (isRight) correct++;
+    updateScore('p2', q.n, isRight);
+    saveState({[`p2_${q.n}`]:{value:input.value.trim(),isRight}});
+  });
+  const fb = document.getElementById('p2-fb');
+  fb.className = 'q-feedback show '+(correct===8?'correct':'wrong');
+  fb.textContent = correct===8?'✓ All 8 correct!':correct+'/8 correct. Incorrect answers are shown in red with the correct word beside them.';
+  saveState({p2_checked:true});
+}
+
+// ══════════ PART 3 DATA & BUILD ══════════
+const p3Data = [
+  { n:17, before:"learning to cook begins as a matter of", after:"rather than interest.", root:"NECESSARY", answer:"necessity", hint:"noun form of NECESSARY" },
+  { n:18, before:"preparing meals is not as", after:"as it looked", root:"SIMPLE", answer:"simple", hint:"SIMPLE itself is already an adjective — no change needed." },
+  { n:19, before:"early results are not always", after:".", root:"SUCCESS", answer:"successful", hint:"adjective form: SUCCESS → successful" },
+  { n:20, before:"cooking can become both useful and enjoyable… a greater degree of", after:".", root:"DEPEND", answer:"independence", hint:"noun with negative prefix: DEPEND → independence" },
+  { n:21, before:"There is room for", after:", especially once someone becomes confident", root:"ORIGINAL", answer:"originality", hint:"abstract noun: ORIGINAL → originality" },
+  { n:22, before:"preparing food for other people can be surprisingly", after:".", root:"SATISFY", answer:"satisfying", hint:"adjective form: SATISFY → satisfying" },
+  { n:23, before:"What begins in", after:"often turns into something people take real pride in.", root:"CERTAIN", answer:"uncertainty", hint:"noun with negative prefix: CERTAIN → uncertainty" },
+  { n:24, before:"most can make clear", after:"with time and patience.", root:"IMPROVE", answer:"improvements", hint:"plural noun: IMPROVE → improvements" },
+];
+
+function buildP3() {
+  const c = document.getElementById('p3-body');
+  const intro = document.createElement('div'); intro.className = 'passage-card';
+  intro.innerHTML = '<h3>Learning to cook</h3><p style="font-size:13px;color:var(--ink-muted);margin-bottom:0;">Type the correct form of each word in CAPITALS. Click Check below when ready.</p>';
+  c.appendChild(intro);
+  p3Data.forEach(q => {
+    const div = document.createElement('div'); div.className = 'wf-row';
+    div.innerHTML = `<span class="wf-num">${q.n}</span>
+      <span class="wf-sentence">${q.before} <span class="inline-gap"><input class="inline-input" id="wf-${q.n}" placeholder="…" autocomplete="off" spellcheck="false" style="width:150px;"></span> ${q.after}</span>
+      <span class="wf-root">${q.root}</span>`;
+    c.appendChild(div);
+  });
+  const btn = document.createElement('button'); btn.className = 'check-all-btn'; btn.textContent = 'Check All Answers (17–24)'; btn.onclick = () => checkP3();
+  c.appendChild(btn);
+  const fb = document.createElement('div'); fb.className = 'q-feedback'; fb.id = 'p3-fb'; fb.style.marginTop = '8px'; c.appendChild(fb);
+}
+
+function checkP3() {
+  let correct = 0;
+  p3Data.forEach(q => {
+    const input = document.getElementById('wf-'+q.n); if(input.disabled) return;
+    const val = input.value.trim().toLowerCase();
+    const isRight = val === q.answer.toLowerCase();
+    input.classList.remove('correct','wrong'); input.classList.add(isRight?'correct':'wrong'); input.disabled = true;
+    if (!isRight) { const sp=document.createElement('span');sp.className='answer-reveal';sp.style.display='inline-block';sp.style.marginLeft='4px';sp.style.fontSize='11px';sp.textContent=q.answer;input.parentNode.appendChild(sp); }
+    if (isRight) correct++;
+    updateScore('p3', q.n, isRight);
+    saveState({[`p3_${q.n}`]:{value:input.value.trim(),isRight}});
+  });
+  const fb = document.getElementById('p3-fb');
+  fb.className='q-feedback show '+(correct===8?'correct':'wrong');
+  fb.textContent = correct===8?'✓ All 8 correct!':correct+'/8 correct. Incorrect answers are shown in red with the correct word beside them.';
+  saveState({p3_checked:true});
+}
+
+// ══════════ PART 4 DATA & BUILD ══════════
+const p4Data = [
+  { n:25, s1:"I last went to the cinema three months ago.", keyword:"BEEN", s2_before:"I", s2_after:"to the cinema for three months.", answer:"haven't been", hint:"present perfect negative: I haven't been …" },
+  { n:26, s1:"It was unnecessary for Sam to bring food because we had already ordered enough.", keyword:"NEEDN'T", s2_before:"Sam", s2_after:"food because we had already ordered enough.", answer:"needn't have brought", hint:"needn't have + past participle" },
+  { n:27, s1:'"Why don\'t we go for a walk after lunch?" Marta said.', keyword:"SUGGESTED", s2_before:"Marta", s2_after:"for a walk after lunch.", answer:"suggested going", hint:"suggest + gerund (no 'that' needed)" },
+  { n:28, s1:"The hotel was so expensive that we decided not to stay there.", keyword:"TOO", s2_before:"The hotel was", s2_after:"decide to stay there.", answer:"too expensive for us to", hint:"too + adj + for + object + to-infinitive" },
+  { n:29, s1:"I regret not learning another language when I was younger.", keyword:"WISH", s2_before:"I", s2_after:"another language when I was younger.", answer:"wish I had learned", hint:"wish + past perfect for regret about the past" },
+  { n:30, s1:"People say that this restaurant serves the best pasta in town.", keyword:"SAID", s2_before:"This restaurant", s2_after:"the best pasta in town.", answer:"is said to serve", hint:"passive reporting structure: is said to + infinitive" },
+];
+
+function buildP4() {
+  const c = document.getElementById('p4-body');
+  p4Data.forEach(q => {
+    const div = document.createElement('div'); div.className = 'kw-item';
+    div.innerHTML = `<div class="kw-q-num">Question ${q.n}</div>
+      <div class="kw-sentence1">${q.s1}</div>
+      <span class="kw-keyword">${q.keyword}</span>
+      <div class="kw-sentence2">${q.s2_before} <input class="kw-input" id="kw-${q.n}" placeholder="2–5 words" autocomplete="off" spellcheck="false"> ${q.s2_after}</div>
+      <div class="answer-row" style="margin-top:8px;">
+        <button class="reveal-btn" onclick="checkKW(${q.n})">Check</button>
+        <span class="correct-badge" id="kwcb-${q.n}">✓ Correct</span>
+        <span class="wrong-badge" id="kwwb-${q.n}"></span>
+        <span class="answer-reveal" id="kwar-${q.n}">Answer: ${q.answer}</span>
+      </div>
+      <div class="q-feedback" id="kwfb-${q.n}" style="margin-top:5px;font-size:12px;"></div>`;
+    c.appendChild(div);
+  });
+}
+
+function checkKW(n) {
+  const q = p4Data.find(d=>d.n===n);
+  const input = document.getElementById('kw-'+n); if(input.disabled) return;
+  const val = input.value.trim().toLowerCase().replace(/\s+/g,' ');
+  // accept variants
+  const accepted = [q.answer.toLowerCase()];
+  if (n===25) accepted.push("have not been");
+  if (n===26) accepted.push("needn't have brought","need not have brought","didn't need to bring","did not need to bring");
+  if (n===27) accepted.push("suggested going","suggested that we go","suggested that we went");
+  if (n===28) accepted.push("too expensive for us to","too expensive to");
+  if (n===29) accepted.push("wish i had learned","wish i had learnt");
+  if (n===30) accepted.push("is said to serve");
+  const isRight = accepted.includes(val);
+  input.classList.remove('correct','wrong'); input.classList.add(isRight?'correct':'wrong'); input.disabled=true;
+  const cb=document.getElementById('kwcb-'+n),wb=document.getElementById('kwwb-'+n),ar=document.getElementById('kwar-'+n),fb=document.getElementById('kwfb-'+n);
+  if(isRight){cb.style.display='inline-block';fb.className='q-feedback show correct';fb.textContent='✓ Correct.';}
+  else{wb.style.display='inline-block';wb.textContent='✗ "'+input.value.trim()+'"';ar.style.display='inline-block';fb.className='q-feedback show wrong';fb.textContent='Hint: '+q.hint;}
+  updateScore('p4',n,isRight);
+  saveState({[`p4_${n}`]:{value:input.value.trim(),isRight}});
+}
+
+// ══════════ PART 5 DATA & BUILD ══════════
+const p5Data = [
+  { n:31, text:"What is the writer's main point in the first paragraph?",
+    opts:["Tiny houses are more popular in cities than in the countryside.","Tiny houses cause strong but differing reactions.","Most people misunderstand how tiny houses are built.","Tiny houses are only suitable for one person."],
+    correct:1, exp:"'To some people, the idea sounds uncomfortable or unrealistic. To others, it represents freedom.' — contrasting reactions are the main focus." },
+  { n:32, text:"According to the writer, people may choose tiny houses because they",
+    opts:["dislike doing household tasks.","want to avoid owning property.","hope to live more simply.","are unable to find larger homes."],
+    correct:2, exp:"'Many are also attracted by the idea of a simpler life, with fewer possessions to organise, clean and replace'." },
+  { n:33, text:"What does the writer suggest in paragraph 3 about living in a tiny house?",
+    opts:["It mainly requires advanced practical skills.","It can change the way people think about possessions.","It is easier for naturally tidy people.","It usually makes people more interested in design."],
+    correct:1, exp:"'Living in a very small home can force people to question their habits as consumers.' — it prompts reflection on possessions." },
+  { n:34, text:"Why does the writer mention 'bad weather, illness or stress' in paragraph 4?",
+    opts:["To show that tiny houses can be difficult in real life","To explain why tiny houses should only be used temporarily","To suggest that online photos of tiny houses are inaccurate","To prove that tiny houses are unhealthy places to live"],
+    correct:0, exp:"These examples show that charm fades 'during a week of bad weather, illness or stress' — real-life conditions make tiny houses harder." },
+  { n:35, text:"What problem does the writer identify in paragraph 5?",
+    opts:["Tiny houses are expensive to move","Tiny houses may not fit existing legal rules","Tiny houses are difficult to insure","Tiny houses require too much land"],
+    correct:1, exp:"'Legal restrictions often limit where such homes can be built or parked… regulations were written with traditional housing in mind'." },
+  { n:36, text:"What is the writer's overall attitude to tiny houses?",
+    opts:["Strongly enthusiastic about their future","Completely opposed to them as a housing idea","Interested in them, but aware of their limits","Uncertain whether they have any value at all"],
+    correct:2, exp:"The writer acknowledges benefits but consistently notes problems — 'A tiny house may not be the answer for most people. Yet the questions it raises… are relevant'." },
+];
+
+function buildP5() {
+  const c = document.getElementById('p5-questions');
+  p5Data.forEach(q => {
+    const div = document.createElement('div'); div.className='question-item';
+    const opts = q.opts.map((o,i)=>`<button class="mcq-opt" onclick="answerMCQ(this,${i},${q.correct},'p5',${q.n})"><span class="opt-letter">${String.fromCharCode(65+i)}</span>${o}</button>`).join('');
+    div.innerHTML=`<div class="q-number">Question ${q.n}</div><div class="q-text">${q.text}</div><div class="mcq-options" data-qi="p5-${q.n}">${opts}</div><div class="q-feedback" id="fb-p5-${q.n}"></div>`;
+    c.appendChild(div);
+  });
+}
+
+// ══════════ PART 6 DATA & BUILD ══════════
+const p6Sentences = {
+  A: "For that reason, choosing familiar songs can make practice more enjoyable.",
+  B: "As a result, some give up before they have allowed themselves enough time to improve.",
+  C: "In fact, many report finding the experience both demanding and deeply satisfying.",
+  D: "They may also be better at organising regular practice into busy schedules.",
+  E: "This does not mean, however, that adults are naturally more talented than children.",
+  F: "Instead, they are often pleased simply to have become competent listeners.",
+  G: "That is why looking back after a few months can be so encouraging.",
+};
+
+const p6Answers = { 37:'D', 38:'E', 39:'B', 40:'G', 41:'A', 42:'C' };
+
+const p6Explanations = {
+  37:"D fits — it continues the point about adults' motivation by adding another advantage: organising practice into schedules.",
+  38:"E fits — it concedes that adults being motivated doesn't mean they're naturally more talented, balancing the paragraph.",
+  39:"B fits — it explains the consequence of self-consciousness: giving up before improving.",
+  40:"G fits — it follows the advice to avoid missing small progress, suggesting looking back to see how far you've come.",
+  41:"A fits — it follows the idea that adults can choose music they love, suggesting familiar songs make practice more enjoyable.",
+  42:"C fits — it concludes by saying most find the experience demanding but satisfying, ending on a positive note.",
+};
+
+function buildP6() {
+  const c = document.getElementById('p6-body');
+
+  // Sentence bank
+  const bankDiv = document.createElement('div'); bankDiv.className = 'sentence-bank';
+  bankDiv.innerHTML = '<div class="sentence-bank-title">Sentences A–G</div>' +
+    Object.entries(p6Sentences).map(([k,v])=>`<div style="font-size:13px;color:var(--ink-soft);margin-bottom:4px;line-height:1.65;"><strong style="color:var(--ink);font-weight:600;">${k}</strong> ${v}</div>`).join('');
+  c.appendChild(bankDiv);
+
+  // Article with dropdowns
+  const articleDiv = document.createElement('div'); articleDiv.className = 'passage-card';
+  const paraTexts = [
+    `Many people believe that musical skill must be developed in childhood. If someone has not learned the piano or violin by the age of ten, they may assume the opportunity has passed. Yet increasing numbers of adults are now choosing to learn instruments for the first time.`,
+    `One reason is that adults often approach learning differently from children. They are usually making the choice voluntarily, not because a parent has insisted on lessons. This can result in stronger motivation, even if progress is slower at first.`,
+    `At the same time, adult learners may face difficulties that children do not. A child might practise without worrying too much about sounding terrible, but adults can be highly self-conscious. They may compare themselves with experienced players and feel embarrassed by their mistakes.`,
+    `Teachers who work with adult beginners often say that patience matters more than speed. Learning an instrument involves training the ear, memory and muscles together, and this takes time at any age. Small signs of improvement can be easy to miss unless learners deliberately notice them.`,
+    `Another advantage adults have is that they often know exactly what kind of music they love. A teenager may accept whatever pieces a teacher chooses, but adults can shape their learning around music that genuinely matters to them.`,
+    `Of course, very few adult beginners expect to become professional musicians. For most, that is not the point. The real reward lies in concentration, expression and the pleasure of gradually doing something that once seemed impossible. In many cases, starting late makes the achievement feel even more meaningful.`,
+  ];
+  const gapNums = [37,38,39,40,41,42];
+  const opts = ['A','B','C','D','E','F','G'].map(k=>`<option value="${k}">${k}</option>`).join('');
+  articleDiv.innerHTML = '<h3>Starting music later in life</h3>' +
+    paraTexts.map((t,i) => `<p>${t} <span style="vertical-align:middle;"> <select class="match-dropdown" id="p6sel-${gapNums[i]}" style="min-width:70px;"><option value="">—</option>${opts}</select></span></p>`).join('');
+  c.appendChild(articleDiv);
+
+  // Check button
+  const btn = document.createElement('button'); btn.className='check-all-btn'; btn.textContent='Check All Answers (37–42)'; btn.onclick=()=>checkP6();
+  c.appendChild(btn);
+  const fb = document.createElement('div'); fb.className='q-feedback'; fb.id='p6-fb'; fb.style.marginTop='8px'; c.appendChild(fb);
+
+  // Per-item feedback
+  gapNums.forEach(n=>{
+    const fdiv=document.createElement('div'); fdiv.className='q-feedback'; fdiv.id='p6-fb-'+n; fdiv.style.marginTop='3px';
+    c.appendChild(fdiv);
+  });
+}
+
+function checkP6() {
+  let correct=0;
+  [37,38,39,40,41,42].forEach(n=>{
+    const sel=document.getElementById('p6sel-'+n); if(sel.disabled)return;
+    const val=sel.value; if(!val)return;
+    const isRight=val===p6Answers[n]; sel.classList.add(isRight?'correct':'wrong'); sel.disabled=true;
+    const fd=document.getElementById('p6-fb-'+n);
+    fd.className='q-feedback show '+(isRight?'correct':'wrong');
+    fd.textContent=(isRight?'✓ ':' ✗ Correct answer: '+p6Answers[n]+'. ')+p6Explanations[n];
+    if(isRight)correct++;
+    updateScore('p6',n,isRight);
+    saveState({[`p6_${n}`]:{val,isRight}});
+  });
+  const fb=document.getElementById('p6-fb');
+  fb.className='q-feedback show '+(correct===6?'correct':'wrong');
+  fb.textContent=correct===6?'✓ All 6 correct!':correct+'/6 correct. Explanations shown for each gap above.';
+  saveState({p6_checked:true});
+}
+
+// ══════════ PART 7 DATA & BUILD ══════════
+const people = {
+  A: { name:'Nina', text:`I started running after moving to a new town for work. I did not know many people there, and my evenings felt strangely empty. At first I ran alone, but I found it hard to stay motivated, especially in winter. I joined the local club mainly to make sure I kept going, and that part definitely worked. What I had not expected was how quickly the runs became the centre of my week socially as well as physically. I had assumed clubs like this were full of serious athletes discussing race times. In reality, there were people of every age and speed, and nobody seemed bothered by where I finished.` },
+  B: { name:'Omar', text:`For me, the club solved a simple problem: I wanted to exercise before work, but I knew that if I relied only on my own willpower, I would keep pressing the alarm button and staying in bed. The club meets at 6:30 every Tuesday and Thursday, which means I treat it almost like an appointment. That structure changed everything. I am still not especially fast, and I do not care much about entering competitions. What I like is seeing that distances which once felt impossible now seem normal. It is satisfying to notice progress without feeling that I always need to beat someone.` },
+  C: { name:'Laura', text:`I used to think running clubs were probably a bit unfriendly. I imagined everyone would already know one another and that beginners would be ignored. I was completely wrong. On my first evening, two members stayed with me the whole time and made conversation so naturally that I forgot to feel nervous. I had recently stopped playing team sport because of a knee problem, and I missed the feeling of exercising with other people. Running with the club gave that back to me, even though it was very different from what I had done before.` },
+  D: { name:'Ben', text:`I joined because a friend kept inviting me, and I eventually ran out of excuses. Before that, I had always exercised on my own and felt quite satisfied with that arrangement. But after a few weeks with the club, I realised how much easier it was to push myself in a group than when nobody else was around. There is a relaxed atmosphere, but people still encourage one another to do their best. I also like the fact that the club includes complete beginners and very experienced runners together. I had thought that mixing abilities might be awkward, yet somehow it works extremely well.` },
+};
+
+const p7Questions = [
+  { n:43, text:"joined partly because they wanted company while exercising?", answer:"A", exp:"Nina 'joined the local club mainly to make sure I kept going' — but also for company: 'evenings felt strangely empty'." },
+  { n:44, text:"was surprised that the club suited people of different levels?", answer:"A", exp:"Nina 'had assumed clubs like this were full of serious athletes… In reality, there were people of every age and speed'." },
+  { n:45, text:"mentions enjoying improvement without becoming highly competitive?", answer:"B", exp:"Omar: 'It is satisfying to notice progress without feeling that I always need to beat someone'." },
+  { n:46, text:"originally had doubts because of a mistaken assumption?", answer:"C", exp:"Laura 'used to think running clubs were probably a bit unfriendly… I was completely wrong'." },
+  { n:47, text:"values the social side more now than they expected to?", answer:"A", exp:"Nina: 'What I had not expected was how quickly the runs became the centre of my week socially'." },
+  { n:48, text:"joined after a change in personal circumstances?", answer:"C", exp:"Laura 'had recently stopped playing team sport because of a knee problem'." },
+  { n:49, text:"appreciated the encouraging attitude of other members?", answer:"D", exp:"Ben: 'people still encourage one another to do their best'." },
+  { n:50, text:"says the club helped make exercise a regular habit?", answer:"B", exp:"Omar: 'I treat it almost like an appointment. That structure changed everything'." },
+  { n:51, text:"prefers the club to exercising alone?", answer:"D", exp:"Ben 'had always exercised on my own… realised how much easier it was to push myself in a group'." },
+  { n:52, text:"chose the club because it fitted a practical need in daily life?", answer:"B", exp:"Omar: the club 'solved a simple problem' — exercising before work without relying on willpower." },
+];
+
+function buildP7() {
+  const c = document.getElementById('p7-body');
+  // People cards
+  const grid = document.createElement('div'); grid.className = 'person-cards';
+  Object.entries(people).forEach(([k,p])=>{
+    const card = document.createElement('div'); card.className='person-card';
+    card.innerHTML=`<div class="person-card-header"><div class="person-card-name">${k} — ${p.name}</div></div><div class="person-card-body">${p.text}</div>`;
+    grid.appendChild(card);
+  });
+  c.appendChild(grid);
+
+  // Questions grid
+  const qgrid = document.createElement('div'); qgrid.className='mm-grid';
+  p7Questions.forEach(q=>{
+    const div=document.createElement('div'); div.className='mm-item';
+    const opts=['A','B','C','D'].map(l=>`<option value="${l}">${l}</option>`).join('');
+    div.innerHTML=`<div class="mm-q"><strong>${q.n}</strong> Which person ${q.text}</div>
+      <div class="answer-row">
+        <select class="match-dropdown" id="mm-${q.n}"><option value="">—</option>${opts}</select>
+        <button class="reveal-btn" onclick="checkMM(${q.n})">Check</button>
+        <span class="correct-badge" id="mmcb-${q.n}">✓ Correct</span>
+        <span class="wrong-badge" id="mmwb-${q.n}"></span>
+        <span class="answer-reveal" id="mmar-${q.n}">Answer: ${q.answer}</span>
+      </div>
+      <div class="q-feedback" id="mmfb-${q.n}" style="margin-top:4px;font-size:11.5px;"></div>`;
+    qgrid.appendChild(div);
+  });
+  c.appendChild(qgrid);
+}
+
+function checkMM(n) {
+  const q=p7Questions.find(d=>d.n===n);
+  const sel=document.getElementById('mm-'+n); if(sel.disabled)return;
+  const val=sel.value; if(!val)return;
+  const isRight=val===q.answer; sel.classList.add(isRight?'correct':'wrong'); sel.disabled=true;
+  const cb=document.getElementById('mmcb-'+n),wb=document.getElementById('mmwb-'+n),ar=document.getElementById('mmar-'+n),fb=document.getElementById('mmfb-'+n);
+  if(isRight){cb.style.display='inline-block';fb.className='q-feedback show correct';fb.textContent='✓ '+q.exp;}
+  else{wb.textContent='✗ '+val;wb.style.display='inline-block';ar.style.display='inline-block';fb.className='q-feedback show wrong';fb.textContent='✗ '+q.exp;}
+  updateScore('p7',n,isRight);
+  saveState({[`p7_${n}`]:{val,isRight}});
+}
+
+// ══════════ SHARED MCQ ══════════
+function answerMCQ(btn,idx,correct,part,qNum) {
+  const wrap=btn.closest('.mcq-options');
+  if(wrap.querySelector('.correct,.wrong'))return;
+  const btns=wrap.querySelectorAll('.mcq-opt'); btns.forEach(b=>b.disabled=true);
+  const isRight=idx===correct;
+  btn.classList.add(isRight?'correct':'wrong'); btns[correct].classList.add('correct');
+  const data=(part==='p1'?p1Data:p5Data).find(q=>q.n===qNum);
+  const fb=document.getElementById(`fb-${part}-${qNum}`);
+  fb.className='q-feedback show '+(isRight?'correct':'wrong');
+  fb.textContent=isRight?'✓ Correct. '+data.exp:'✗ Incorrect. '+data.exp;
+  updateScore(part,qNum,isRight);
+  saveState({[`mcq_${part}_${qNum}`]:{chosen:idx,correct,isRight}});
+}
+function restoreMCQ_general(part,qNum,chosen,correct,isRight) {
+  const wrap=document.querySelector(`[data-qi="${part}-${qNum}"]`); if(!wrap)return;
+  const btns=wrap.querySelectorAll('.mcq-opt'); btns.forEach(b=>b.disabled=true);
+  btns[chosen].classList.add(isRight?'correct':'wrong'); btns[correct].classList.add('correct');
+  const data=(part==='p1'?p1Data:p5Data).find(q=>q.n===qNum);
+  const fb=document.getElementById(`fb-${part}-${qNum}`);
+  fb.className='q-feedback show '+(isRight?'correct':'wrong');
+  fb.textContent=isRight?'✓ Correct. '+data.exp:'✗ Incorrect. '+data.exp;
+  updateScore(part,qNum,isRight);
+}
+
+
+function currentExerciseIndex(){
+  const parts = ['p1','p2','p3','p4','p5','p6','p7'];
+  return Math.max(0, parts.findIndex(id => {
+    const el = document.getElementById(id);
+    return el && el.classList.contains('active');
+  }));
+}
+function goToExerciseIndex(index){
+  const parts = ['p1','p2','p3','p4','p5','p6','p7'];
+  const tabs = document.querySelectorAll('.ptab');
+  const safeIndex = Math.max(0, Math.min(index, parts.length - 1));
+  const section = document.getElementById(parts[safeIndex]);
+  if(section && tabs[safeIndex]){
+    showPart(parts[safeIndex], tabs[safeIndex]);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+}
+function nextExercisePage(){ goToExerciseIndex(currentExerciseIndex() + 1); }
+function previousExercisePage(){ goToExerciseIndex(currentExerciseIndex() - 1); }
+
+// ══════════ PART SWITCHING ══════════
+function showPart(id, btn) {
+  document.querySelectorAll('.q-section').forEach(s=>s.classList.remove('active'));
+  document.querySelectorAll('.ptab').forEach(t=>t.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+  /* active page not saved: always reopen on page 1 */
+}
+
+// ══════════ TIMER ══════════
+const timerEl=document.getElementById('timer');
+const st0=loadState();
+let secondsLeft=(st0.timerSeconds!==undefined&&st0.timerSeconds>0)?st0.timerSeconds:75*60;
+function renderTimer(){
+  const m=Math.floor(secondsLeft/60),s=secondsLeft%60;
+  timerEl.textContent=String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');
+  timerEl.className='hval lg'+(secondsLeft<600?' danger':secondsLeft<1200?' warning':'');
+}
+renderTimer();
+const tick=setInterval(()=>{
+  if(secondsLeft<=0){clearInterval(tick);timerEl.textContent='00:00';timerEl.classList.add('danger');return;}
+  secondsLeft--;renderTimer();
+  if(secondsLeft%10===0)saveState({timerSeconds:secondsLeft});
+},1000);
+
+// ══════════ RESET ══════════
+function resetTest(){
+  if(!confirm('Reset the entire test? All your answers and the timer will be cleared.'))return;
+  clearState();location.reload();
+}
+
+// ══════════ RESTORE ══════════
+function restoreAll(){
+  const st=loadState();
+
+  // P1 MCQ
+  p1Data.forEach(q=>{const s=st[`mcq_p1_${q.n}`];if(s)restoreMCQ_general('p1',q.n,s.chosen,s.correct,s.isRight);});
+
+  // P2 open cloze
+  p2Data.forEach(q=>{
+    const s=st[`p2_${q.n}`]; if(!s)return;
+    const input=document.getElementById('oc-'+q.n); if(!input)return;
+    input.value=s.value; input.classList.add(s.isRight?'correct':'wrong'); input.disabled=true;
+    if(!s.isRight){const sp=document.createElement('span');sp.className='answer-reveal';sp.style.display='inline-block';sp.style.marginLeft='4px';sp.style.fontSize='11px';sp.textContent=q.answer;input.parentNode.appendChild(sp);}
+    updateScore('p2',q.n,s.isRight);
+  });
+  if(st.p2_checked){const fb=document.getElementById('p2-fb');const correct=p2Data.filter(q=>{ const s=st[`p2_${q.n}`];return s&&s.isRight;}).length;fb.className='q-feedback show '+(correct===8?'correct':'wrong');fb.textContent=correct===8?'✓ All 8 correct!':correct+'/8 correct. Incorrect answers are shown in red with the correct word beside them.';}
+
+  // P3 word formation
+  p3Data.forEach(q=>{
+    const s=st[`p3_${q.n}`]; if(!s)return;
+    const input=document.getElementById('wf-'+q.n); if(!input)return;
+    input.value=s.value; input.classList.add(s.isRight?'correct':'wrong'); input.disabled=true;
+    if(!s.isRight){const sp=document.createElement('span');sp.className='answer-reveal';sp.style.display='inline-block';sp.style.marginLeft='4px';sp.style.fontSize='11px';sp.textContent=q.answer;input.parentNode.appendChild(sp);}
+    updateScore('p3',q.n,s.isRight);
+  });
+  if(st.p3_checked){const fb=document.getElementById('p3-fb');const correct=p3Data.filter(q=>{const s=st[`p3_${q.n}`];return s&&s.isRight;}).length;fb.className='q-feedback show '+(correct===8?'correct':'wrong');fb.textContent=correct===8?'✓ All 8 correct!':correct+'/8 correct. Incorrect answers are shown in red with the correct word beside them.';}
+
+  // P4 key word
+  p4Data.forEach(q=>{
+    const s=st[`p4_${q.n}`]; if(!s)return;
+    const input=document.getElementById('kw-'+q.n); if(!input)return;
+    input.value=s.value; input.classList.add(s.isRight?'correct':'wrong'); input.disabled=true;
+    const cb=document.getElementById('kwcb-'+q.n),wb=document.getElementById('kwwb-'+q.n),ar=document.getElementById('kwar-'+q.n),fb=document.getElementById('kwfb-'+q.n);
+    if(s.isRight){cb.style.display='inline-block';fb.className='q-feedback show correct';fb.textContent='✓ Correct.';}
+    else{wb.style.display='inline-block';wb.textContent='✗ "'+s.value+'"';ar.style.display='inline-block';fb.className='q-feedback show wrong';fb.textContent='Hint: '+q.hint;}
+    updateScore('p4',q.n,s.isRight);
+  });
+
+  // P5 MCQ
+  p5Data.forEach(q=>{const s=st[`mcq_p5_${q.n}`];if(s)restoreMCQ_general('p5',q.n,s.chosen,s.correct,s.isRight);});
+
+  // P6 gapped text
+  [37,38,39,40,41,42].forEach(n=>{
+    const s=st[`p6_${n}`]; if(!s)return;
+    const sel=document.getElementById('p6sel-'+n); if(!sel)return;
+    sel.value=s.val; sel.classList.add(s.isRight?'correct':'wrong'); sel.disabled=true;
+    const fd=document.getElementById('p6-fb-'+n);
+    fd.className='q-feedback show '+(s.isRight?'correct':'wrong');
+    fd.textContent=(s.isRight?'✓ ':' ✗ Correct answer: '+p6Answers[n]+'. ')+p6Explanations[n];
+    updateScore('p6',n,s.isRight);
+  });
+  if(st.p6_checked){const correct=[37,38,39,40,41,42].filter(n=>{const s=st[`p6_${n}`];return s&&s.isRight;}).length;const fb=document.getElementById('p6-fb');fb.className='q-feedback show '+(correct===6?'correct':'wrong');fb.textContent=correct===6?'✓ All 6 correct!':correct+'/6 correct. Explanations shown for each gap above.';}
+
+  // P7 matching
+  p7Questions.forEach(q=>{
+    const s=st[`p7_${q.n}`]; if(!s)return;
+    const sel=document.getElementById('mm-'+q.n); if(!sel)return;
+    sel.value=s.val; sel.classList.add(s.isRight?'correct':'wrong'); sel.disabled=true;
+    const cb=document.getElementById('mmcb-'+q.n),wb=document.getElementById('mmwb-'+q.n),ar=document.getElementById('mmar-'+q.n),fb=document.getElementById('mmfb-'+q.n);
+    if(s.isRight){cb.style.display='inline-block';fb.className='q-feedback show correct';fb.textContent='✓ '+q.exp;}
+    else{wb.textContent='✗ '+s.val;wb.style.display='inline-block';ar.style.display='inline-block';fb.className='q-feedback show wrong';fb.textContent='✗ '+q.exp;}
+    updateScore('p7',q.n,s.isRight);
+  });
+  // Always open on page 1; last opened page is intentionally not restored.
+}
+
+
+function forceOpenPageOne(){
+  document.querySelectorAll('.q-section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.ptab').forEach(t => t.classList.remove('active'));
+  const firstSection = document.getElementById('p1');
+  const firstTab = document.querySelector('.ptab');
+  if(firstSection) firstSection.classList.add('active');
+  if(firstTab) firstTab.classList.add('active');
+  window.scrollTo(0,0);
+}
+
+// ══════════ INIT ══════════
+buildP1(); buildP2(); buildP3(); buildP4(); buildP5(); buildP6(); buildP7();
+restoreAll();
+forceOpenPageOne();
+</script>
+
+
+</body></html>
